@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
     public class DetailActivity extends AppCompatActivity {
 
-        private DatabaseHelper dbHelper;
+        private DataBaseHelper dbHelper;
         private TextView detailTitle;
         private TextView detailDescription;
 
