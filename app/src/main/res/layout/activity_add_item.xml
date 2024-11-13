@@ -10,14 +10,16 @@
         android:id="@+id/editTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Título" />
+        android:hint="Título"
+        android:minHeight="48dp" /> <!-- Agrega un minHeight para evitar el error -->
 
     <EditText
         android:id="@+id/editDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Descripción"
-        android:paddingTop="8dp" />
+        android:paddingTop="8dp"
+        android:minHeight="48dp" /> <!-- Agrega un minHeight para evitar el error -->
 
     <Button
         android:id="@+id/saveButton"
